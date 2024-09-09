@@ -23,8 +23,8 @@ const Navbar = () => {
           onMouseOver={() => setmainLogo(true)}
           onMouseOut={() => setmainLogo(false)}
           style={{
-            height: "42px",
-            width: "42px",
+            height: "40px",
+            width: "40px",
             color: `${mainLogo === true ? `${canvasBackGround}` : `#6B5ED9`}`,
           }}
         />
