@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { TbSourceCode } from "react-icons/tb";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
+//Just Checking Out
 const Navbar = () => {
   const [gitLogo, setgitLogo] = React.useState(false);
   const canvasBackGround = useSelector(
@@ -23,8 +23,8 @@ const Navbar = () => {
           onMouseOver={() => setmainLogo(true)}
           onMouseOut={() => setmainLogo(false)}
           style={{
-            height: "44px",
-            width: "44px",
+            height: "42px",
+            width: "42px",
             color: `${mainLogo === true ? `${canvasBackGround}` : `#6B5ED9`}`,
           }}
         />
