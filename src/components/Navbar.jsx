@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import bmac from "../assets/bmac.png";
 import MainLogo from "../assets/Frame 1.png";
 import { AiFillGithub } from "react-icons/ai";
 import { useSelector } from "react-redux";
