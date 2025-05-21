@@ -14,7 +14,7 @@
   "homepage": "",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
