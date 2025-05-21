@@ -34,7 +34,7 @@ const Feature = ({ sharedRef }) => {
   const [colourType, setcolourType] = useState("solid");
   return (
     <>
-      <div className="w-full lg:flex sm:flex-col justify-center items-center overflow-x-auto m-auto min-w-0">
+      <div className="mycontainer w-full lg:flex sm:flex-col justify-center items-center  m-auto min-w-0">
         <FeatureOuterBox
           className={`${visiblity === true ? null : "hidden"} lg:fixed `}
         >
